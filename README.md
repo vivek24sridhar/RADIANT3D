@@ -30,3 +30,21 @@ SemanticKITTI-FOV data and model checkpoints are not included. Configure their l
 
 ## Acknowledgements
 This research builds upon the PMF multi-sensor fusion framework.
+
+## Historical AdaptivePMF V1 Results
+
+The original AdaptivePMF V1 experiment was trained for 15 epochs on SemanticKITTI-FOV.
+
+| Metric | Best validation result |
+|---|---:|
+| mIoU | 58.42% |
+| Accuracy | 75.83% |
+| Recall | 65.15% |
+
+- Validation scans: 4,071
+- Learning rate: 0.0001
+- Best checkpoint: `best_IOU_model.pth`
+
+These results belong to the historical AdaptivePMF V1 experiment and are not claimed as independently trained RADIANT3DNet results.
+
+The checkpoint and original training logs are not included in this repository.
