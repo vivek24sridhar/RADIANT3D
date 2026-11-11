@@ -20,6 +20,20 @@ The approach uses local LiDAR point density and point-to-sensor distance as reli
 - SemanticKITTI data-loading and preprocessing code.
 - Experiment configurations and comparison script.
 
+## Visual Results
+
+### Temporal LiDAR–Camera Visualization
+Illustration of consecutive-frame LiDAR–camera fusion output.
+
+![RADIANT3D Temporal Visualization](assets/RADIANT3D_T_Tplus1_reference_style.png)
+
+### PMF vs RADIANT3D Comparison
+Qualitative comparison of the baseline PMF output and RADIANT3D output for frame 3014.
+
+![PMF vs RADIANT3D](assets/pmf_vs_radiant3d_comparison_3014.png)
+
+These images are qualitative visualizations and should not be interpreted as independent quantitative performance evidence.
+
 ## Experiments
 The repository preserves the historical 15-epoch AdaptivePMF V1 configuration separately from the 50-epoch RADIANT3D configuration.
 
