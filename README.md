@@ -20,6 +20,14 @@ The approach uses local LiDAR point density and point-to-sensor distance as reli
 - SemanticKITTI data-loading and preprocessing code.
 - Experiment configurations and comparison script.
 
+## Video Demonstrations
+
+### RADIANT3D — SemanticKITTI Sequence 08
+[Watch RADIANT3D demonstration](videos/RADIANT3D_Sequence08.mp4)
+
+### PMF vs RADIANT3D — SemanticKITTI Sequence 08
+[Watch model comparison](videos/PMF_vs_RADIANT3D_Sequence08.mp4)
+
 ## Experiments
 The repository preserves the historical 15-epoch AdaptivePMF V1 configuration separately from the 50-epoch RADIANT3D configuration.
 
